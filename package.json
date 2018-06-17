@@ -20,6 +20,12 @@
     "mocha": "^5.2.0",
     "standard": "^11.0.1"
   },
+  "keywords": [
+    "dependency-injection",
+    "di",
+    "container",
+    "ioc"
+  ],
   "standard": {
     "globals": [
       "describe",

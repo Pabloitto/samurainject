@@ -14,7 +14,7 @@ npm install samurai-inject --save
 ```
 
 **How to use**
-```javascript:
+```javascript
 /*
 * Get container factory function
 */
@@ -51,7 +51,7 @@ bar.print() // Output: Bar
 
 We can use classes or factories patterns
 
-```javascript:
+```javascript
 const { Container } =  require('samurai-inject')
 const  container  =  Container() 
 
@@ -86,7 +86,7 @@ baz.print() // Output: Baz
 
 The default behavior to solve the parameters which are other objects is passing the data as a single parameter object.
 
-```javascript:
+```javascript
 const { Container } =  require('samurai-inject')
 const  container  =  Container() 
 
@@ -126,7 +126,7 @@ grault.print() // Output: Grault
 
  We can override the default behavior to solve the parameters one by one sending it separately as a classical pattern used by the begin of the times.
 
-```javascript:
+```javascript
 const { Container, PARAMS_MODE } =  require('samurai-inject')
 const  container  =  Container() 
 
@@ -163,7 +163,7 @@ waldo.print() // Output: Waldo
 
 Sometimes we want to pass some fixed/static parameters to our objects like a connection strings or something like that.
 
-```javascript:
+```javascript
 const { Container } =  require('samurai-inject')
 const  container  =  Container() 
 

@@ -41,8 +41,8 @@ container.register('foo', Foo)
 container.register('bar', Bar)
 
 // And then we can resolve those classes and get the instances
-const foo = constainer.resolve('foo')
-const bar = constainer.resolve('bar')
+const foo = container.resolve('foo')
+const bar = container.resolve('bar')
 
 foo.print() // Output: Foo
 bar.print() // Output: Bar
@@ -76,8 +76,8 @@ container.register('qux', Qux)
 container.register('Baz', Baz)
 
 // And then we can resolve those classes and get the instances
-const qux = constainer.resolve('qux')
-const baz = constainer.resolve('baz')
+const qux = container.resolve('qux')
+const baz = container.resolve('baz')
 
 qux.print() // Output: Qux
 baz.print() // Output: Baz
@@ -117,8 +117,8 @@ container.register('corge', Corge, ['grault'])
 container.register('grault', Grault)
 
 // And then we can resolve those classes and get the instances
-const corge = constainer.resolve('corge')
-const grault = constainer.resolve('grault')
+const corge = container.resolve('corge')
+const grault = container.resolve('grault')
 
 corge.print() // Output: Corge Grault
 grault.print() // Output: Grault
@@ -153,8 +153,8 @@ container.register('garply', Garply, ['waldo'], PARAMS_MODE.asIndividualParams)
 container.register('waldo', Waldo)
 
 // And then we can resolve those classes and get the instances
-const garply = constainer.resolve('garply')
-const waldo = constainer.resolve('waldo')
+const garply = container.resolve('garply')
+const waldo = container.resolve('waldo')
 
 garply.print() // Output: Garply Waldo
 waldo.print() // Output: Waldo
@@ -203,8 +203,8 @@ container.register('plugh', Plugh, [
 ])
 
 // And then we can resolve those classes and get the instances
-const fred = constainer.resolve('fred')
-const plugh = constainer.resolve('plugh')
+const fred = container.resolve('fred')
+const plugh = container.resolve('plugh')
 
 fred.print() 
 // Output: Connection to mongo:mylocalmongo:2727/testdb

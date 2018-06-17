@@ -1,4 +1,4 @@
-const { Container } = require('../../samuraiject')
+const { Container } = require('../../samurai-inject')
 
 const container = Container()
 

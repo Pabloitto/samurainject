@@ -1,22 +1,21 @@
 {
-  "name": "samuraiject",
+  "name": "samurai-inject",
   "version": "1.0.1",
   "description": "Simple Ioc Container",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/samuraiject",
     "test": "mocha $(find tests -name '*.test.js')"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pabloitto/samuraiject.git"
+    "url": "git+https://github.com/Pabloitto/samurainject.git"
   },
   "author": "Juan Pablo Itto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pabloitto/samuraiject/issues"
+    "url": "https://github.com/Pabloitto/samurainject/issues"
   },
-  "homepage": "https://github.com/Pabloitto/samuraiject#readme",
+  "homepage": "https://github.com/Pabloitto/samurainject#readme",
   "devDependencies": {
     "mocha": "^5.2.0",
     "standard": "^11.0.1"

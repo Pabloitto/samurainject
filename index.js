@@ -1,4 +1,4 @@
-const samuraiject = require('./src/samuraiject')
+const samuraiject = require('./src/samurai-inject')
 
 module.exports = {
   samuraiject

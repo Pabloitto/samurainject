@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-const { Container } = require('../src/samuraiject')
+const { Container } = require('../src/samurai-inject')
 
 const ServiceA = ({
   limit

@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-const { Container, PARAMS_MODE } = require('../src/samuraiject')
+const { Container, PARAMS_MODE } = require('../src/samurai-inject')
 
 class A {
   constructor (numberOne) {

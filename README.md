@@ -1,4 +1,4 @@
-# Samura Inject
+# Samurai Inject
 
 A Simple IOC Container
 
